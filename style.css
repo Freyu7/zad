@@ -1,0 +1,236 @@
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 6px;
+      padding-bottom: 6px;
+	}
+	.container1{
+		background: white; 
+	color: black;
+	width:1000px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	padding: 0px;
+		
+	}
+	.container{
+	background: white; 
+	color: black;
+	width:1000px;
+	min-height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	padding: 0px;
+		
+	}
+	table div{
+	
+		text-align: justify;
+		}
+	
+}
+
+@media (max-width: 768px) {
+	div{
+		background-color: #FFF3E9
+	}
+	.topbar{
+		display: none;
+	}
+	table div{
+	overflow: hidden;
+	white-space: pre-wrap; 
+	
+	text-overflow: ellipsis;
+	text-align: justify;
+	}
+	.span{
+		color: #A2B991;
+	}
+	.nav{
+		width: 100%;
+	}
+}
+
+
+body{
+	/* background-image: url(black-Linen/black-Linen.png); */
+	margin: 0px;
+	background: #D2B9A4;
+}
+
+.content{	
+	border-radius: 5px;
+	
+	padding: 10px;	
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+
+}
+.topbar{
+	background: #FFF3E9;
+	
+	padding: 15px;
+	text-align: center;
+}
+.logo{
+	margin-right: 57px;
+	border-radius: 5px;
+	color: #A2B991;
+	font-size: 64px;
+	font-weight: 630;
+	letter-spacing: 11px;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.slajder{
+	
+	float: left;
+	text-align: center;
+	width: 200px;
+	
+}
+
+.slajder img{
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+.login{
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px;	
+	
+	float: left;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.nav > li > a{
+	padding: 8px;
+	border-radius: 3px;
+	background: #FFF3E9;
+	
+}
+
+.nav{
+	background: #FFF3E9;
+	/* border: 1px solid gray;
+	border-radius: 4px; */
+	/* margin: 5px; */
+	text-align: center;
+
+	
+	float: left;
+	
+}
+
+.right{
+	float: left;
+	width: 20%;
+}
+.footer{
+	clear:both;
+}
+input, textarea, select {
+	width: 40%;
+	padding: 10px;;
+	line-height: 1.4;
+	
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+input[type="submit"], button{
+	text-align: center;  
+	margin-top: 16px;
+	width: 120px;
+	height: 40px;
+	background: #16a085;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	cursor: pointer;
+	}
+
+/*do wywalkenie */
+input[type="chcekbox"] {
+	text-align: center; 
+	width: 15px; 
+	margin-top: 16px;
+	background: #16a085;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	cursor: pointer;
+	}
+
+input[type="submit"]:hover, button:hover {
+	opacity: 0.8;
+}
+
+input[type="submit"]:active, button:active {
+	opacity: 1;
+}
+
+input[type="submit"]:focus {
+	outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline-color: #16a085;
+}
+
+.nav a{
+	color: black;
+	text-decoration: none;
+	
+}
+.nav a:hover{
+	color: black;
+	text-decoration: none;
+	color: #16a085;	
+}
+
+input[type="submit"]:focus {
+	outline: none;
+  }
+
+.error{
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+a div{
+	color: black;
+	cursor: default;
+
+}
+
+th{
+	text-align: center;
+}
+
+.bar{
+	background: gray;
+	text-align: right;
+}
